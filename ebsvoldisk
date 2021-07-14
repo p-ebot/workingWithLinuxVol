@@ -1,0 +1,14 @@
+#show disks
+  lsblk
+
+#check what the disk have 
+  file -s /dev/xvdf
+
+#format disk
+   mkfs -t ext4 /dev/xvdf
+
+#mount disk
+   mkdir appdata
+   mount /dev/xvdf /appdata
+
+  
