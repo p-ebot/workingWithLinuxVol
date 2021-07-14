@@ -18,4 +18,8 @@
   1. umount volume  #umount /dev/xvdf
   2. datach volume from aws console
   3. create snapshot of the volume with data
-  4. creat new volume and attach snapshot
+  4. creat new volume from the snapshot
+  5. attached new volume to ec2
+  6. mount volume #mount /dev/xvdf /appdata
+  7. check disk #file -s /dev/xvdf
+  
