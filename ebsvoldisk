@@ -14,4 +14,8 @@
 #umount volume
    umount /dev/xvdf
 
-  
+#transferring data from one vol to another
+  1. umount volume  #umount /dev/xvdf
+  2. datach volume from aws console
+  3. create snapshot of the volume with data
+  4. creat new volume and attach snapshot
