@@ -11,4 +11,7 @@
    mkdir appdata
    mount /dev/xvdf /appdata
 
+#umount volume
+   umount /dev/xvdf
+
   
