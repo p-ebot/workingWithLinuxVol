@@ -22,4 +22,8 @@
   5. attached new volume to ec2
   6. mount volume #mount /dev/xvdf /appdata
   7. check disk #file -s /dev/xvdf
-  
+
+
+Move snapshot to another region
+  copy snapshot
+  #charges apply
